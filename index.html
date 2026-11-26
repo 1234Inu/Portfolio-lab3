@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Full Stack Developer</title>
+  <!-- Google Fonts: Poppins & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+  <!-- ================= HEADER (Flexbox) ================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#top" class="logo">My Portfolio</a>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION (Flexbox + Keyframes) ================= -->
+    <section id="hero" class="hero section-animate">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <h1>Hi, I am Inesh Tandon</h1>
+          <h2 class="animated-role">Full Stack Developer</h2>
+          <p class="hero-bio">Building modern web applications with MERN stack.</p>
+        </div>
+
+        <div class="hero-image">
+          <div class="avatar-circle" role="img" aria-label="Illustrated developer portrait">
+            <svg viewBox="0 0 260 260" class="avatar-svg" xmlns="http://www.w3.org/2000/svg">
+              <!-- Soft sky circle background -->
+              <circle cx="130" cy="130" r="126" fill="#c7defa" />
+              <path d="M130 4 A126 126 0 0 1 130 256 A110 110 0 0 0 130 4 Z" fill="#b3d2f8" opacity="0.55" />
+
+              <!-- Suit & Shirt -->
+              <path d="M48 232 C54 188, 86 168, 130 168 C174 168, 206 188, 212 232 A126 126 0 0 1 48 232 Z" fill="#476c8a" />
+              <path d="M108 171 L130 222 L152 171 L142 162 L118 162 Z" fill="#f8fafc" />
+              <!-- Red Tie -->
+              <polygon points="125,175 135,175 138,185 130,224 122,185" fill="#e57373" />
+              <polygon points="124,172 136,172 133,181 127,181" fill="#d45d5d" />
+              <!-- Suit Lapels -->
+              <polygon points="106,170 124,205 112,216 92,182" fill="#365570" />
+              <polygon points="154,170 136,205 148,216 168,182" fill="#365570" />
+
+              <!-- Neck & Head -->
+              <rect x="116" y="144" width="28" height="28" rx="8" fill="#f2cbb8" />
+              <path d="M116 154 Q130 164 144 154 L144 166 L116 166 Z" fill="#dfaf99" opacity="0.65" />
+              <path d="M90 106 C90 76, 170 76, 170 106 L170 128 C170 150, 150 162, 130 162 C110 162, 90 150, 90 128 Z" fill="#fad6c3" />
+              <!-- Right side face shading -->
+              <path d="M134 82 C156 82, 170 92, 170 106 L170 128 C170 150, 150 162, 130 162 C144 158, 152 145, 152 126 L152 104 C152 92, 145 85, 134 82 Z" fill="#f2cbb8" opacity="0.65" />
+
+              <!-- Hair -->
+              <path d="M88 112 C84 82, 102 60, 134 60 C162 60, 178 76, 174 102 C168 94, 156 90, 140 92 C122 94, 104 102, 88 112 Z" fill="#253b4d" />
+              <path d="M128 61 C156 61, 174 76, 172 98 C166 90, 154 86, 138 87 Z" fill="#324e64" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ME SECTION ================= -->
+    <section id="about" class="about section-animate">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          Hello! My name is Inesh Tandon, and I am currently learning web development. 
+          This is my first portfolio website where I showcase my passion for creating interactive and responsive web pages. 
+          I am a student at KR Mangalam University, pursuing a BCA(CyberSecurity) degree, and I am deeply interested in technology and coding. 
+          I love exploring new skills every day, and I always aim to improve my knowledge in the field of web development. With a hardworking and consistent mindset, I am determined to grow as a developer and build creative projects that make a real impact.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= MY SKILLS SECTION (CSS Grid) ================= -->
+    <section id="skills" class="skills section-animate">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>HTML</h3>
+            <p>Beginner</p>
+          </article>
+          <article class="skill-card">
+            <h3>CSS</h3>
+            <p>Beginner</p>
+          </article>
+          <article class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Learning</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MY PROJECTS SECTION (CSS Grid) ================= -->
+    <section id="projects" class="projects section-animate">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Project 1</h3>
+            <p>A simple HTML &amp; CSS webpage.</p>
+          </article>
+          <article class="project-card">
+            <h3>Project 2</h3>
+            <p>Another awesome mini project.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ME SECTION ================= -->
+    <section id="contact" class="contact section-animate">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="3" placeholder="write your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-send">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER & BACK TO TOP ================= -->
+  <footer class="site-footer">
+    <div class="footer-bar">
+      <p>&copy; 2026 Inesh Tandon. All rights reserved.</p>
+    </div>
+    <div class="container back-to-top-row">
+      <a href="#top" class="back-to-top-btn">&uarr; Back to Top</a>
+    </div>
+  </footer>
+
+</body>
+</html>
